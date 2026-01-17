@@ -1,0 +1,16 @@
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Embedding & Vector Search
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4  # Use faiss-gpu if you have CUDA
+
+# LLM API
+google-generativeai>=0.3.0
+
+# UI
+streamlit>=1.28.0
+
+# Optional but recommended
+python-dotenv>=1.0.0  # For .env file support
